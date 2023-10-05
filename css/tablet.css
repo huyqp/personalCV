@@ -1,0 +1,84 @@
+@media only screen and (max-width: 991px) {
+  /* Xay dung banner */
+  /* chen hinh nen background */
+  #banner h1 {
+    font-weight: 900;
+    font-size: 30px;
+  }
+  #banner p {
+    font-size: 15px;
+  }
+
+  /* xay dung Navnavi */
+  /* hinh anh nang cao */
+  #navi > .coner > .avatar {
+    display: none;
+  }
+  .cv {
+    border-right: 0.1px solid darkgray;
+  }
+  /* Xay dung thong tin ca nhan */
+  #content {
+    padding: 30px;
+  }
+  #pi h1 {
+    padding-bottom: 20px;
+  }
+  .symbol {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  /* xay dung thong tin nghe nghiep*/
+  #job-infor .coner-job {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+  }
+  /* CHỨNG CHỈ - THÀNH TÍCH GIẢI THƯỞNG */
+  #certificate {
+    padding: 0 !important;
+  }
+  #certificate .coner-a-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: auto;
+    width: auto;
+  }
+  .coner-a-item img {
+    width: 100%;
+    height: auto;
+  }
+  .coner-a-item ul {
+    padding-left: 0 !important;
+    list-style-type: none;
+  }
+  /* tao du an */
+  #proj h1 {
+    font-size: 20px;
+  }
+  .proj-item h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    height: 100%;
+    max-width: 100%;
+    padding: 5px;
+    border-bottom: 1px solid #d3d3d3;
+  }
+  .proj-item h6 {
+    background-color: #4263eb;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+  .proj-item p {
+    font-size: 10px;
+  }
+}
